@@ -15,10 +15,3 @@
     Pragma = "no-cache"
     Expires = "0"
 
-# 确保所有文件名大小写不变（重要！）
-[build]
-  command = "npm run build"
-  publish = "build"
-  functions = "functions"
-  # 禁止文件名规范化
-  environment = { NODE_OPTIONS = "--preserve-symlinks --preserve-symlinks-main" }
