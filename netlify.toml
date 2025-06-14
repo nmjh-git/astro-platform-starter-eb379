@@ -1,0 +1,6 @@
+# netlify.toml
+[[redirects]]
+  from = "/WW_verify_wcxe1Oew87cdo756.txt"
+  to = "/WW_verify_wcxe1Oew87cdo756.txt"
+  status = 200
+  force = true
